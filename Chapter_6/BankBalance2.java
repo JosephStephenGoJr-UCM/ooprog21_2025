@@ -18,7 +18,7 @@ public class BankBalance2 {
 
             if (choice == 1) {
                 balance = balance + (balance * INTEREST_RATE);
-                System.out.printf("After year %d at %.2f interest rate, balance is $%.1f%n", year, INTEREST_RATE, balance);
+                System.out.printf("After year %d at %.2f interest rate, balance is $%.1f%n\n", year, INTEREST_RATE, balance);
                 year++;
             }
 
